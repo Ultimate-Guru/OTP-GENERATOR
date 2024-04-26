@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: "Nunito", sans-serif;
+    overflow: hidden;
+}
+
+:root {
+    --bg-color: #191f36;
+    --snd-bg-color: #262b40;
+    --text-color: #fff;
+    --main-color: #59b2f4;
+}
+
+html {
+    font-size: 64.6%;
+}
+
+body {
+    background: var(--bg-color);
+    color: var(--text-color);
+}
+
+.heading {
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+    text-align: center;
+    font-size: 2em;
+}
+
+.heading span {
+    color: var(--main-color);
+}
+
+.contact form {
+    max-width: 70rem;
+    margin: 1rem auto;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.contact form .input-box {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+input[type='checkbox'] {
+    position: relative;
+    left: 63%;
+    top: -8px;
+}
+
+.contact form .input-box input,
+.contact form textarea {
+    width: 100%;
+    padding: 1.3rem;
+    font-size: 1.6rem;
+    color: var(--text-color);
+    border-radius: 0.8rem;
+    background: var(--snd-bg-color);
+    margin: 0.7rem 0;
+}
+
+.contact form .input-box input {
+    width: 49%;
+}
+
+.contact form textarea {
+    padding: 30px;
+    resize: none;
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+.btn {
+    cursor: pointer;
+    margin-top: 2.5rem;
+    display: inline-block;
+    padding: 16px;
+    background: var(--main-color);
+    border-radius: 1.7em;
+    font-size: 1.6rem;
+    color: #212121;
+    letter-spacing: 0.1rem;
+    font-weight: 700;
+}
